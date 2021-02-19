@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <title>Projects</title>
+    <link rel="icon" type="image/gif" href="images/image.png" />
+    <link rel="stylesheet" href="scrollbar.css">
+    <style media="screen">
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(to right bottom, #e66465, #9198e5);
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      font-size: 40px;
+      font-family: sans-serif;
+      background-color: white;
+      border: 2px solid black;
+      letter-spacing: 0.1em;
+      width: 14em;
+      height: 1.5em;
+      line-height: 1.5em;
+      position: relative;
+      overflow: hidden;
+      margin: 0.5em;
+      cursor: pointer;
+    }
+
+    nav ul li span {
+      color: white;
+      mix-blend-mode: difference;
+    }
+
+    nav ul li::before {
+      content: '';
+      position: absolute;
+      width: 1.5em;
+      height: inherit;
+      background-color: black;
+      border-radius: 50%;
+      top: 0;
+      left: -0.75em;
+      transition: 1s ease-out;
+    }
+
+    nav ul li:hover::before {
+      transform: scale(20);
+    }
+
+    a{text-decoration: none;
+    color: white;}
+
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li style="text-align: center;"><span ><a href="index.html">🡰</a></span></li>
+        <li><span><a href="name-day/">Imieniny</a></span></li>
+        <li><span><a href="code-decode/">Systemy kodowania</a></span></li>
+        <li><span><a href="txt-counter/">Licznik słów</a></span></li>
+        <li><span><a href="ratemy/">Ranking piesków</a></span></li>
+        <li><span><a href="rng/">Wylosuj liczbę</a></span></li>
+        <li><span><a href="the-wheel-of-fortune/">The wheel of fortune</a></span></li>
+        <li><span><a href="memepage/">Memes</a></span></li>
+        <li><span><a href="calculator/">Kalkulatory</a></span></li>
+        <li><span><a href="countries/">Państwa</a></span></li>
+      </ul>
+    </nav>
+  </body>
+</html>
