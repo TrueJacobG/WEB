@@ -1,0 +1,59 @@
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px grey;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 8px;
+  -webkit-box-shadow: inset 0 0 6px black;
+  background-color: #adedff;
+}
+
+body{background-color: #ffffff;
+}
+
+.main{width: auto;}
+
+.one_image{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 25%;
+border: 3px solid #3269a8;
+border-radius: 50%;
+}
+
+.name{font-family: "Tahom";
+font-size: 1.1vw;
+color: #3269a8;
+text-align: center;
+margin: auto;
+width: 35%;
+border-bottom: 3px solid #3269a8;
+padding: 10px;
+}
+
+.socials{width: auto;}
+
+.social1{margin-top: 2vw;
+margin-left: 39.5vw;
+display: block;
+width: 10%;
+float: left;}
+
+.social2{margin-top: 2vw;
+display: block;
+margin-left: 1vw;
+width: 10%;
+float: left;}
+
+a{text-decoration: none;
+color: #3269a8;
+font-size: 1.3vw;}
+
+footer{text-align: center;
+margin-top: 2vw;}
